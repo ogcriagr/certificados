@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//udemy.com//Udemy
+METHOD:PUBLISH
+BEGIN:VEVENT
+ORGANIZER;CN="Udemy":mailto:no-reply@udemy.com
+SUMMARY:Hora de aprender!
+SEQUENCE:0
+DTSTAMP:20220904T174342Z
+DTSTART;TZID=America/Sao_Paulo:20220904T140000
+DTEND;TZID=America/Sao_Paulo:20220904T150000
+UID:1144326
+RRULE:FREQ=DAILY;
+DESCRIPTION:Machine Learning  e Data Science com Python (https://www.udemy.com/course/machine-learning-e-data-science-com-python/learn/)
+
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Hora de aprender!
+END:VALARM
+END:VEVENT
+END:VCALENDAR
